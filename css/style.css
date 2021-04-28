@@ -65,12 +65,11 @@ header li {
 }
 
 #branding {
-    align-items: center !important;
+    background-color: aqua;
 }
 
 .logo {
     height: 3rem;
-    width: auto;
 }
 
 #name {
@@ -91,8 +90,9 @@ header li {
 }
 
 .axe {
-    background-color: aqua;
     height: 24rem;
     z-index: 100;
-    margin-top: -12rem;
+    margin-top: -10rem;
+    text-align: center;
 }
+
