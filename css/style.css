@@ -29,6 +29,12 @@ ul {
     text-decoration: none;
 }
 
+li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
 .button {
     height: 2.2rem;
     width: 8rem;
@@ -37,6 +43,15 @@ ul {
     font-size: 0.7rem;
     background-color: #fffdee;
     font-weight: 700;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.button:hover {
+    color: #fffdee;
+    background-color: #931d00;
+    transition: .1s ease-in-out;
 }
 
 
@@ -80,7 +95,7 @@ header li {
 #name {
     font-family: 'Noto Sans JP', sans-serif;
     color: #931d00;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     margin-top: 6rem;
 }
@@ -88,18 +103,88 @@ header li {
 #mainhead {
     font-family: 'Noto Sans JP', sans-serif;
     color: #931d00;
-    font-size: 5rem;
+    font-size: 4.6rem;
     text-align: center;
-    margin-top: 1rem;
-    line-height: 0.9;
+    margin-top: -1rem;
+    line-height: 1;
 }
 
 .axe {
-    height: 24rem;
+    height: 30rem;
     z-index: 100;
-    margin-top: -10rem;
+    margin-top: -13rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Delivery section */
+
+#delivery {
+    background-color: #fffdee;
+    text-align: center;
+    height: 350px;
+}
+
+#delivery-line1 {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+
+#delivery-line2 {
+    color: #000;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+/* About section */
+
+#about {
+    background-color: #fffdee;
+}
+
+#about-box {
+    height: 500px;
+    width: 50%;
+    background-color: #931d00;
+    color: #fff;
+    padding: 4rem;
+    float: left;
+}
+
+#about-head {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #fff;
+    font-size: 2.2rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.about-text {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.about-image {
+    height: 500px;
+    width: 50%;
+    float: right;
+}
+
+/* About section */
+
+#products {
+    background-color: #fffdee;
+}
+
+#product-head {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #931d00;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+}
