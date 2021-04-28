@@ -65,7 +65,7 @@
      <!-- About section -->
 
     <section id="about">
-        <div class="container-fluid">
+        <div class="container-fluid"></div>
             <div id="about-box">
                 <h2 id="about-head">ABOUT</h2>
                 <p class="about-text">Since 1984, Andrew Heard has been preparing, 
@@ -75,7 +75,7 @@
                     to over 3,800 customers throughout the Surrey area and beyond.
                 </p>
                 <div>
-                    <button type="submit" class="button">READ MORE</button>
+                    <button type="submit" class="button-clear">READ MORE</button>
                 </div>
             </div>
             <div class="about-image">
@@ -114,11 +114,12 @@
                 <p class="text-log2">£170.00</p>
                 <button type="submit" class="button">BUY NOW</button>
             </div>
-            <div id="see-more-button">
-                <a href="#">SEE MORE</a>
-            </div>
          </div>
+         <div id="see-more-button">
+            <a href="#">SEE MORE</a>
+        </div>
      </section>
+
 
      <!-- Storage section -->
      
@@ -135,12 +136,13 @@
             </div>
             <div class="store-box">
                 <h2 id="store-head">GOOD LOG <br>STORAGE GUIDE</h2>
-                <p class="store-text">We season our logs for at least 12-14 months to ensure 
+                    <p class="store-text">We season our logs for at least 12-14 months to ensure 
                     you get the best quality log that we can provide. You can minimise 
                     the moisture build up by ensuring that there is plenty of 
-                    air circulating around the stack.</p>
+                    air circulating around the stack.
+                    </p>
                 <div>
-                    <button type="submit" class="button">READ MORE</button>
+                    <button type="submit" class="button-clear">READ MORE</button>
                 </div>
             </div>
         </div>
@@ -159,7 +161,7 @@
                 <h4 class="blog-head">What do we do for the summer months?</h4>
                 <p class="blog-text">Winter has passed and warmer weather is hopefully on the way! This has left 
                     many of you asking us, So what do you do over the summer…</p>
-                <button type="submit" class="button-read">READ MORE</button>
+                <a href="#" class="button-read">READ MORE</a>
             </div>
             <div class="blog-box">
                 <img src="./images/IMG_5522-1-768x1024.png" alt="Logs on fire">
@@ -167,7 +169,7 @@
                 <h4 class="blog-head">How to keep your fire burning</h4>
                 <p class="blog-text">Lighting your fire is the first step in wood-burning but 
                     keeping the fire burning hot requires more technicalities than many people realise…</p>
-                <button type="submit" class="button-read">READ MORE</button>
+                <a href="#" class="button-read">READ MORE</a>
             </div>
          </div>
      </section>
@@ -180,68 +182,60 @@
                 <h2 id="contact-head">GET IN TOUCH</h2>
             </div>
             <div id="address-box">
-                <p class="address-bold">01483 538337</p><br>
-                <p class="address-bold">andrew.heard.woodstock@gmail.com</p><br>
+                <p class="address-bold"><i class="fas fa-phone"></i></i> 01483 538337</p><br>
+                <p class="address-bold"><i class="fas fa-envelope"></i></i> andrew.heard.woodstock@gmail.com</p><br>
                 <p class="address-bold">Hornhatch Farm</p>
                 <p class="address-regular">Rices Corner<br>Shalford<br>Surrey<br>GU4 8HS</p><br>
                 <p class="address-bold">Opening Hours</p>
                 <p class="address-regular">Mon – Sat 9:00am – 5:00pm<br>Sun 10:00am – 1:00pm<br>
                     CLOSED Sundays 1st Apr – 1st Oct</p><br>
                 <p class="address-bold">FAQs</p>
-            </div>
-            <div class='social'>
-                
                 <div>
                     <ul class="list-inline sociallinks">
-                      <li class="list-inline-item">
-                      <a href="#" aria-label="Like us on Facebook">
-                      <i class="fab fa-facebook" aria-hidden="true"></i>
+                        <li class="list-inline-item">
+                        <a href="#" aria-label="Like us on Facebook">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
                         <span class="sr-only">Facebook</span>
-                      </a>
-                      </li>
-                      <li class="list-inline-item">
-                      <a href="#" aria-label="Follow us on Instagram">
-                          <i class="fab fa-instagram" aria-hidden="true"></i>
-                          <span class="sr-only">Instagram</span>
-                      </a>
-                      </li>
-                      <li class="list-inline-item">
-                      <a href="#" aria-label="Watch us on Youtube">
-                          <i class="fab fa-youtube" aria-hidden="true"></i>
-                          <span class="sr-only">Youtube</span>
-                      </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a href="#" aria-label="Follow us on Twitter">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                          <span class="sr-only">Twitter</span>
                         </a>
                         </li>
-                    </ul>
-                  </div>
-
-            </div>
-
+                        <li class="list-inline-item">
+                        <a href="#" aria-label="Follow us on Instagram">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                        </li>
+                        <li class="list-inline-item">
+                        <a href="#" aria-label="Watch us on Youtube">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" aria-label="Follow us on Twitter">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                        </li>
+                        </ul>
+                </div>
+            </div>                
+            
             <aside id="form">
                 <form class="contact-form">
                     <div>
-                        <label>Name</label>
                         <input type="text" placeholder="Name*">
                     </div>
                     <div>
-                        <label>Email</label>
                         <input type="email" placeholder="Email*">
                     </div>
                     <div>
-                        <label>Phone</label>
                         <input type="tel" placeholder="Phone no.">
                     </div>
                     <div>
-                        <label>Message</label>
                         <textarea placeholder="Your comments"></textarea>
                     </div>
                     <div>
-                        <button class="contact-button">WE'LL BE IN TOUCH</button>
+                        <button id="contact-button">WE'LL BE IN TOUCH</button>
                     </div>
                 </form>
             </aside>

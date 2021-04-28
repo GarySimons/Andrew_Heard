@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@700&display=swap');
 
 * {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 body {
@@ -51,6 +51,23 @@ li {
 .button:hover {
     color: #fffdee;
     background-color: #931d00;
+    transition: .1s ease-in-out;
+}
+
+.button-clear {
+    height: 2.2rem;
+    width: 8rem;
+    border: #fff 0.1rem solid;
+    color: #fff;
+    font-size: 0.7rem;
+    background-color: #931d00;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.button-clear:hover {
+    color: #931d00;
+    background-color: #fffdee;
     transition: .1s ease-in-out;
 }
 
@@ -146,7 +163,8 @@ header li {
 /* About section */
 
 #about {
-    background-color: #fffdee;
+    background-color:#fffdee;
+    height: 800px;
 }
 
 #about-box {
@@ -177,10 +195,11 @@ header li {
     float: right;
 }
 
-/* About section */
+/* Product section */
 
 #products {
     background-color: #fffdee;
+    height: 1000px;
 }
 
 #product-head {
@@ -188,23 +207,28 @@ header li {
     color: #931d00;
     font-size: 2.2rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1.4rem;
     margin-top: 6rem;
 }
 
 .log-box {
+    float: left;
     text-align: center;
     margin-bottom: 3rem;
+    width: 33.3%;
+    padding: 1rem;
+    align-items: center;
 }
 
 .log-image {
-    width: 30%;
+    width: 100%;
 }
 
 .text-log1 {
     color: #000;
     font-size: 1.2rem;
     font-weight: 700;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -214,4 +238,163 @@ header li {
     font-size: 0.8rem;
     margin-top: 1rem;
     text-align: center;
+}
+
+#see-more-button {
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* Storage section */
+
+#storage {
+    background-color: #fffdee;
+}
+
+.store-image {
+    max-height: 400px;
+    float: left;
+    width: 50%;
+    align-items: center;
+}
+
+.store-box {
+    color: #fff;
+    background-color: #931d00;
+    max-height: 600px;
+    float: right;
+    width: 50%;
+    padding: 4rem;
+}
+
+#store-head {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #fff;
+    font-size: 2.2rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.store-text {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+/* Blog section */
+
+#blog {
+    background-color: #fffdee;
+}
+
+#blog-head {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #931d00;
+    font-size: 2.2rem;
+    text-align: left;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.blog-box {
+    float: left;
+    margin-bottom: 3rem;
+    width: 50%;
+    align-items: center;
+}
+
+.blog-date {
+    color: #931d00;
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.blog-head {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.blog-text {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.button-read {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* Contact section */
+
+#contact {
+    background: url('../images/istockphoto-175444922-2048x2048.jpg') no-repeat;
+}
+
+#contact-head {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #931d00;
+    font-size: 2.2rem;
+    text-align: left;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.address-bold {
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.address-regular {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+#address-box {
+    float: left;
+    margin-bottom: 3rem;
+    width: 50%;
+}
+
+#form {
+    float: right;
+    margin-bottom: 3rem;
+    width: 50%;
+}
+
+#form .contact-form input,
+#form .contact-form textarea {
+    
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+
+#form .placeholder {
+    color: #931d00 !important;
+    font-size: 0.6rem;
+}
+
+#contact-button {
+    height: 2.2rem;
+    width: 100%;
+    border: #931d00 0.1rem solid;
+    color: #fffdee;
+    font-size: 0.7rem;
+    background-color: #931d00;
+    font-weight: 700;
+}
+
+#contact-button:hover {
+    background-color: #fff;
+    border: #931d00 0.1rem solid;
+    color: #931d00;
+    transition: .1s ease-in-out;
 }
