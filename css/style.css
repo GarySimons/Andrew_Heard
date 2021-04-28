@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@700&display=swap');
+
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Global */
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.button {
+    height: 2.2rem;
+    width: 8rem;
+    border: #931d00 0.1rem solid;
+    color: #931d00;
+    font-size: 0.7rem;
+    background-color: #fffdee;
+    font-weight: 700;
+}
+
+
+/* Home page */
+
+header {
+    background: url('../images/istockphoto-1175781029-2048x2048.png') no-repeat;
+    max-height: 80vh;
+}
+
+header li {
+    color: red;
+    font-weight: 700;
+    font-size: 0.6rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 5px 0 5px;
+    display: inline;
+}
+
+#nav1 {
+    float: left;
+    margin-top: 1rem;
+}
+
+#nav2 {
+    float: right;
+    margin-top: -2rem;
+}
+
+#branding {
+    align-items: center !important;
+}
+
+.logo {
+    height: 3rem;
+    width: auto;
+}
+
+#name {
+    font-family: 'Noto Sans';
+    color: #931d00;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+#mainhead {
+    font-family: 'Noto Sans';
+    color: #931d00;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 0.9;
+}
+
+.axe {
+    background-color: aqua;
+    height: 24rem;
+    z-index: 100;
+    margin-top: -12rem;
+}
