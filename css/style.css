@@ -70,6 +70,7 @@ header li {
     text-align: center;
     padding: 0 5px 0 5px;
     display: inline;
+    cursor: pointer;
 }
 
 #nav1 {
@@ -126,18 +127,20 @@ header li {
     height: 350px;
 }
 
-#delivery-line1 {
+.text-line1 {
     color: #000;
     font-size: 1.2rem;
     font-weight: 700;
     margin-top: 6rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
-#delivery-line2 {
+.text-line2 {
     color: #000;
     font-size: 0.8rem;
     margin-top: 1rem;
+    text-align: center;
 }
 
 /* About section */
@@ -147,7 +150,7 @@ header li {
 }
 
 #about-box {
-    height: 500px;
+    height: 800px;
     width: 50%;
     background-color: #931d00;
     color: #fff;
@@ -187,4 +190,28 @@ header li {
     text-align: center;
     margin-bottom: 1rem;
     margin-top: 6rem;
+}
+
+.log-box {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.log-image {
+    width: 30%;
+}
+
+.text-log1 {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.text-log2 {
+    color: #000;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    text-align: center;
 }
