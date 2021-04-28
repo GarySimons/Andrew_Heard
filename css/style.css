@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@700&display=swap');
 
+* {
+    text-decoration: none;
+}
 
 body {
     font-family: 'Libre Baskerville', serif;
@@ -65,7 +68,9 @@ header li {
 }
 
 #branding {
-    background-color: aqua;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
@@ -73,7 +78,7 @@ header li {
 }
 
 #name {
-    font-family: 'Noto Sans';
+    font-family: 'Noto Sans JP', sans-serif;
     color: #931d00;
     font-size: 2.5rem;
     text-align: center;
@@ -81,7 +86,7 @@ header li {
 }
 
 #mainhead {
-    font-family: 'Noto Sans';
+    font-family: 'Noto Sans JP', sans-serif;
     color: #931d00;
     font-size: 5rem;
     text-align: center;
@@ -93,6 +98,8 @@ header li {
     height: 24rem;
     z-index: 100;
     margin-top: -10rem;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
